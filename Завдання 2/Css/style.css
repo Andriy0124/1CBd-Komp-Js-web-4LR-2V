@@ -1,0 +1,55 @@
+body { width: 700px; height: auto;
+margin: 0; }
+.column{
+height: 450px;
+width: 700px;
+background-color: yellow;
+
+}
+.bloc{
+    display: flex;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.tekst1, .tekst3{
+    height: 330px;
+    width: 330px;
+    background-color: gainsboro;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 20px;
+}
+.qq{
+    height: auto;
+    width: 200px;
+    margin-top: -25px;
+    margin-left: -10px;
+}
+.tekst2, .tekst4{
+    height: 330px;
+    width: 330px;
+    background-color: gainsboro;
+    margin-left: 25px;
+    font-size: 14px;
+    text-align: center;
+   
+}
+.ww{
+    height: auto;
+    width: 200px;
+    margin-left: -15px;
+   
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.button-container2{
+    text-align: center;
+    margin-top: 20px;   
+}
+button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Css/style.css">
+</head>
+<body>
+    <script src="/Java/task1.js"></script>
+    
+    <div class="column">
+       
+        <p>Курс долара</p>
+        <input type="text" value="39.43 грн" readonly>  
+        <p>Ваша сума</p>
+        <input type="text" id="amountInput" oninput="addSuffix(this)" pattern="[0-9]*" title="Введіть число" /> 
+        <div class="Batoom">
+            <button class="Calcu" onclick="calculate()"> Обрахувати </button>
+            <button class="Clear" onclick="clearFields()">
+                <img src="/svgviewer-output.svg" >
+            </button>
+        </div>
+        <p>Ви можете купити </p>
+        <input type="text" id="result" readonly>  
+    </div>
+</body>
+</html>
